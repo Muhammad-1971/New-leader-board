@@ -1,5 +1,6 @@
 /* ------------font---------- */
-
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 
 
@@ -41,13 +42,18 @@ body{
   align-items: center;
   margin-left: 40%;
 }
+.logo{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: #787a7a;
+}
 .png-h img{
   padding-top: 10px;
   padding-right:40px ;
   margin: 0 50px;
 }
 i{
-  color: rgb(120, 122, 122);
+  color: #787a7a;
 }
 
 
@@ -101,6 +107,8 @@ text-align: right;
   margin-top: 20px;
 }
 .toper{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
   font-weight: 600;
 }
 .date{
@@ -121,9 +129,19 @@ text-align: right;
   background-color: #b2e2e144;
   color: #04c8d6;
 }
+.this-week:hover{
+ transform: scale(1.1);
+ background-color: rgba(255, 255, 255, 0.13);
+ transition: all .2s linear;
+}
 .last-week{
   background-color: ghostwhite;
   color: rgb(196, 191, 191);
+}
+.last-week:hover{
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.13);
+  transition: all .2s linear;
 }
 .contributors{
   display: flex;
@@ -146,6 +164,7 @@ text-align: right;
 }
 .text h2{
   margin-top: 20px;
+  font-family: 'Titillium Web', sans-serif;
 }
 .text h6{
   margin-top: 10px;
@@ -174,7 +193,14 @@ text-align: right;
  margin-top: 30px;
   width: 130px;
   height: 130px;
+  border-radius: 65px;
+  box-shadow: 4px 3px 8px rgb(172, 219, 215),
+             inset -4px -3px 8px white;
  
+}
+.contributor:hover img{
+  transform: scale(1.2);
+  transition: transform 0.4s linear;
 }
 .ratings{
   height: 8vh;
@@ -233,6 +259,14 @@ grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(1,1fr);
 
 }
+.box:hover{
+  transform: skew(6deg);
+  transition: transform 0.4s ease-out;
+}
+.box:hover img{
+  transform: scale(1.3);
+  transition: transform 0.4s ease-in-out;
+}
 .client-detail{
  display: flex;
 
@@ -245,6 +279,7 @@ grid-template-columns: 1fr 1fr 1fr;
   display: flex;
 }
 .texts{
+  font-family: 'Titillium Web', sans-serif;
   padding-top: 4px;
 }
 
@@ -257,6 +292,10 @@ grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   display: flex;
   align-items: center;
+}
+.sub-titles{
+  font-weight: 600;
+  color: #787a7a;
 }
 #cli-id{
   width: 160px;
@@ -287,9 +326,14 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 .footer-logo{
   padding-top: 25px;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   font-weight: 600;
   font-size: 20px;
+  color: #787a7a;
+}
+#color{
+  color: #04c8d6;
 }
 #copyright{
   text-align: center;

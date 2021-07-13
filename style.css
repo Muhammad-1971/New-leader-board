@@ -4,7 +4,7 @@
 
 
 
-/* common style and utiliters */
+/* common style and utilites */
 *{
   text-decoration: none;
   box-sizing: border-box;
@@ -21,17 +21,20 @@ body{
 
 /* nav-bar */
 .nav-bar{
-  height: 100px;
+  height: 90px;
   width: 100%;
   background-color: ghostwhite;
+ 
   /* border: 1px solid black; */
   
 }
+
 .nav{
   
   display: flex;
   justify-content: space-around;
   align-items: center;
+  box-shadow: 2px 6px 6px rgb(211, 246, 255);
 }
 .png-h{
   display: flex;
@@ -58,12 +61,12 @@ i{
 main{
   width: 100%;
   background-color: #edf5f5;
-  height: 120vh;
+ 
 
 }
 /* -------------------
-              top-contributors
-              --------------------------  */
+                          top-contributors
+                                              --------------------------  */
 
 .head-bar{
   display: flex;
@@ -190,7 +193,7 @@ grid-template-columns: 1fr 1fr 1fr;
   box-shadow: 1px 1px 18px #c0eeee;
 
 }
-.fa-clock,.fa-wave-square,.fa-hubspot{
+.fa-clock,.fa-wave-square,.fa-code-branch{
   padding: 2.5vh 30px;
   font-size: 1.3em;
 }
@@ -199,7 +202,7 @@ grid-template-columns: 1fr 1fr 1fr;
   font-size: 15px;
   color: black;
 }
-/* section-2-------------------------------------------- */
+/* section-2------------------------------------------------------ */
 
 .clients{
   display: grid;
@@ -228,6 +231,7 @@ grid-template-columns: 1fr 1fr 1fr;
 .box{
   display: gird;
   grid-template-columns: repeat(1,1fr);
+
 }
 .client-detail{
  display: flex;
@@ -269,4 +273,24 @@ grid-template-columns: 1fr 1fr 1fr;
   color: #04c8d6;
   font-weight: 500;
   padding-bottom: 20px;
+}
+
+/* footer---------------------------------------------------------- */
+
+.footer{
+  margin-top: 20px;
+  height: 10vh;
+  width: 100%;
+  background-color: ghostwhite;
+  box-shadow: 4px 6px 8px #e7e7e7;
+  
+}
+.footer-logo{
+  padding-top: 25px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+#copyright{
+  text-align: center;
 }

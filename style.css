@@ -20,7 +20,9 @@ body{
  align-items: center;
 }
 
-/* nav-bar */
+/*------------------------------- 
+                                 nav-bar
+                                         ----------------------------*/
 .nav-bar{
   height: 90px;
   width: 100%;
@@ -390,3 +392,23 @@ grid-template-columns: 1fr 1fr 1fr;
 
 
 }
+@media only screen and (max-width: 992px){
+  
+
+.contributor {
+  height: 100%;
+  width: 100%;
+}
+.head-bar{
+  height: 100%;
+}
+.box{
+  width: 100%;
+}
+.back{
+  height:100%;
+  width: 100%;
+}
+
+}
+
